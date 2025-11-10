@@ -1,0 +1,52 @@
+.product-list {
+    padding-top: 20px;
+}
+
+.product-card-custom {
+    
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    transition: transform 0.2s; 
+}
+
+.product-card-custom:hover {
+    transform: translateY(-2px); /* Efek angkat ringan */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Gambar Produk */
+.product-img {
+    height: 140px; /* Tinggi yang sedikit tidak bulat */
+    object-fit: contain;
+    padding: 10px;
+}
+
+/* Judul Produk */
+.product-title-custom {
+    font-size: 0.85rem; /* Ukuran font spesifik */
+    color: #333;
+    line-height: 1.2;
+    
+    height: 38px;
+    overflow: hidden; 
+}
+
+
+.product-price-custom {
+    font-size: 1rem;
+    color: #03AC0E !important; /* Hijau yang spesifik */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Info Lokasi */
+.location-info {
+    font-size: 0.7rem;
+    color: #777;
+}
+
+.main-header-clone {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
